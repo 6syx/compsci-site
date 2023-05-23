@@ -1,0 +1,31 @@
+@font-face {
+    font-family: comic-sans;
+    src: url(COMIC.TTF);
+  }
+  body {
+    background: lightskyblue;
+  }
+  p {
+    color: darkred;
+    font-family: comic-sans;
+    
+  }
+  h1 {
+    font-weight: bold;
+    font-family: comic-sans;
+    color: darkblue;
+    text-align:  center;
+  }
+  h4 {
+    font-family: comic-sans;
+    color: darkgreen;
+  }
+    
+  img {
+    height: 250px;
+    width: 250px;
+  }
+  
+  .aboutmelist {
+    color: rgb(255,0,0);
+  }
