@@ -2,7 +2,7 @@
     font-family: comic-sans;
     src: url(COMIC.TTF);
 }
-.navbar {
+ul.navbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -13,6 +13,13 @@ body{
 }
 
 h1 {
+    font-weight: bold;
+    font-family: comic-sans;
+    color: darkblue;
+    text-align:  center;
+}
+
+h2 {
 	font-family: comic-sans;
 	font-size: 1.3em;
 	text-align: center;
