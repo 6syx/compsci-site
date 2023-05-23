@@ -1,7 +1,12 @@
 @font-face {
     font-family: comic-sans;
     src: url(COMIC.TTF);
-  }
+}
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 body{
 	font-family: comic-sans;
 	background: lightseagreen
