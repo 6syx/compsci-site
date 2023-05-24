@@ -1,0 +1,73 @@
+@font-face {
+    font-family: comic-sans;
+    src: url(COMIC.TTF);
+}
+ul.navbar {
+	list-style-type: none;
+	display: inline-block;
+	list-style-position: inside;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+div.container {
+	text-align: center;
+}
+
+li.navbar {
+	float: left;
+	padding: 4px 16px;
+}
+
+body {
+	font-family: comic-sans;
+	background: lightgreen
+}
+
+img {
+	width: 50%;
+	height: auto;
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+p {
+	color: darkred;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: comic-sans;
+    color: darkblue;
+    text-align:  center;
+}
+
+h2 {
+	font-family: comic-sans;
+	font-size: 1.3em;
+	text-align: center;
+	color: darkorchid;
+}
+
+table {
+	font-family: comic-sans;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+tr {
+	font-family: comic-sans;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+th {
+	font-family: comic-sans;
+	text-align: center;
+	color: #ffffff;
+	background-color: darkgreen;
+}

@@ -4,11 +4,20 @@
 }
 ul.navbar {
 	list-style-type: none;
+	display: inline-block;
+	list-style-position: inside;
+	text-align: center;
 	margin: 0;
 	padding: 0;
+}
+
+div.container {
 	text-align: center;
+}
+
+li.navbar {
 	float: left;
-	padding: 14px 16px;
+	padding: 4px 16px;
 }
 
 body {
@@ -27,6 +36,7 @@ h2 {
 	font-family: comic-sans;
 	font-size: 1.3em;
 	text-align: center;
+	color: greenyellow;
 }
 
 table {
@@ -41,7 +51,6 @@ tr {
 	font-family: comic-sans;
 	border: 1px solid #000000;
 	text-align: center;
-	background-color:#9FB6CD; 
 }
 
 th {
